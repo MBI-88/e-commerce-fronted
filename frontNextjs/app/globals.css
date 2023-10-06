@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+
+
+/* html,body{
+@apply relative  h-full
+  
+} */
+@tailwind utilities;
+
+

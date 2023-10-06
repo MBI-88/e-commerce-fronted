@@ -1,0 +1,79 @@
+{
+    "users": [
+        {
+            "user_id": 151,
+            "username": "toqui",
+            "password": "$2a$10$Chqs6e9ysM/dWUp/M/.u7efvTghUsZzKOePiWPoV/m6Tl14672DHe",
+            "email": "toqui@toqui.com",
+            "tel": "+86767677",
+            "address": "",
+            "image": "",
+            "role": "client",
+            "created_at": "2023-08-06T14:39:06.582-03:00",
+            "updated_at": "2023-08-06T14:39:06.582-03:00",
+            "active": false,
+            "Publishings": null,
+            "Trolley": null
+        },
+        {
+            "user_id": 155,
+            "username": "user1-test",
+            "password": "$2a$10$mPzuK3k99VYiktcrVxRuXOzQk8nmvnaTZTuivn/z2QwG8CxIsx4KK",
+            "email": "pepe40@example.com",
+            "tel": "+53634324",
+            "address": "La Habana",
+            "image": "/static/images/users/2023-8-7/985c8dfb-8ab2-4244-b97c-5a2276e201ec.jpg",
+            "role": "seller",
+            "created_at": "2023-08-07T05:38:25.137-03:00",
+            "updated_at": "2023-08-07T05:49:48.612-03:00",
+            "active": true,
+            "Publishings": null,
+            "Trolley": null
+        },
+        {
+            "user_id": 161,
+            "username": "user2-test",
+            "password": "$2a$10$Iz3FDc0uJRwXNMV8F4EHlO5f5Z.yuYMooEJeQEop0Rz8J4WdYKeYu",
+            "email": "user2@example.com",
+            "tel": "+53634325",
+            "address": "",
+            "image": "",
+            "role": "client",
+            "created_at": "2023-08-07T06:11:17.217-03:00",
+            "updated_at": "2023-08-07T06:11:25.602-03:00",
+            "active": true,
+            "Publishings": null,
+            "Trolley": null
+        },
+        {
+            "user_id": 162,
+            "username": "user3-test",
+            "password": "$2a$10$TOGWIMM72JVTNznt8Vff4utMtEQ8u7aEnIUNAiempMBognqBd/SOO",
+            "email": "user3@example.com",
+            "tel": "+53634326",
+            "address": "Uruguay Positos",
+            "image": "/static/images/users/2023-8-26/889999c9-c0fb-4097-81ee-404dfa68bf1a.jpg",
+            "role": "seller",
+            "created_at": "2023-08-07T06:17:31.061-03:00",
+            "updated_at": "2023-08-26T18:07:24.541-03:00",
+            "active": true,
+            "Publishings": null,
+            "Trolley": null
+        },
+        {
+            "user_id": 164,
+            "username": "userClient-test",
+            "password": "$2a$10$d4h2C8f3PrP.zr8hqAWVTO1BKCqrAkySFu8IQBdkLBDXAXMfQJ/p2",
+            "email": "userclient@example.com",
+            "tel": "+53634321",
+            "address": "",
+            "image": "",
+            "role": "client",
+            "created_at": "2023-08-08T05:23:55.396-03:00",
+            "updated_at": "2023-08-08T05:24:24.838-03:00",
+            "active": true,
+            "Publishings": null,
+            "Trolley": null
+        }
+    ]
+}

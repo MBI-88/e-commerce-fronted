@@ -1,0 +1,42 @@
+.marquee {
+  position: relative;
+  height: 100px;
+  /* width: 70%; */
+  /* margin: 0 auto; */
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+@keyframes marquee {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+
+
+
+.track {
+
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 5px;
+
+
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 12s linear infinite;
+  width: 180%;
+}
+
+
+
+.track:hover {
+  animation-play-state: paused;
+}
+
+
+
+
+

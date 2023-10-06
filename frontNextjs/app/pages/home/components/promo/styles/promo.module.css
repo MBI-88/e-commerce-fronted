@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  max-width: 1024px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor en la página */
+  height: 350px;
+}
+

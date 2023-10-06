@@ -1,0 +1,44 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`LoginView > Snapshot 1`] = `
+"<v-sheet data-v-e6343c0a=\\"\\" class=\\"bglayout pa-16\\" rounded=\\"\\" width=\\"100%\\">
+  <v-expand-x-transition data-v-e6343c0a=\\"\\" style=\\"height: 12%;\\">
+    <v-alert data-v-03678c71=\\"\\" data-v-e6343c0a=\\"\\" type=\\"error\\" title=\\"\\" class=\\"alert\\" width=\\"300\\" text=\\"\\" variant=\\"tonal\\" style=\\"display: none;\\"></v-alert>
+  </v-expand-x-transition>
+  <div data-v-e6343c0a=\\"\\" style=\\"height: 15%;\\"></div>
+  <v-container data-v-e6343c0a=\\"\\" class=\\"my-16\\">
+    <v-card data-v-e6343c0a=\\"\\" class=\\"mx-auto px-6 py-10 shadow-md form\\" max-width=\\"600\\" height=\\"350\\" title=\\"D'Todo Admin panel\\">
+      <v-form data-v-e6343c0a=\\"\\" modelvalue=\\"false\\" fast-fail=\\"\\">
+        <v-text-field data-v-e6343c0a=\\"\\" modelvalue=\\"\\" rules=\\"(value) => {
+        if (value)
+          return true;
+        return &quot;Email is required&quot;;
+      },(value) => {
+        if (/.+@.+\\\\..+/.test(value))
+          return true;
+        return &quot;Email must be valid&quot;;
+      }\\" label=\\"Email\\" required=\\"\\"></v-text-field>
+        <v-layout data-v-e6343c0a=\\"\\" class=\\"align-center\\">
+          <v-text-field data-v-e6343c0a=\\"\\" modelvalue=\\"\\" type=\\"password\\" label=\\"Password\\" required=\\"\\" rules=\\"(value) => {
+        if (value.length > 8)
+          return true;
+        return &quot;Password must be over 8 caracters&quot;;
+      },(value) => {
+        if (!value.includes(&quot; &quot;))
+          return true;
+        return &quot;Password must not contain empty space&quot;;
+      }\\"></v-text-field>
+          <v-icon data-v-e6343c0a=\\"\\" end=\\"\\" icon=\\"mdi-eye-off-outline\\" class=\\"icon pb-5 pr-5\\"></v-icon>
+          <v-icon data-v-e6343c0a=\\"\\" class=\\"icon\\" icon=\\"mdi-eye-outline\\" style=\\"display: none;\\"></v-icon>
+        </v-layout>
+        <v-layout data-v-e6343c0a=\\"\\">
+          <v-spacer data-v-e6343c0a=\\"\\" class=\\"mx-8\\"></v-spacer>
+          <v-btn data-v-e6343c0a=\\"\\" type=\\"submit\\" class=\\"ma-2 mx-1\\" size=\\"large\\" color=\\"primary\\"> Go <v-spacer data-v-e6343c0a=\\"\\" class=\\"mx-1\\"></v-spacer>
+            <v-icon data-v-e6343c0a=\\"\\"> mdi-send </v-icon>
+          </v-btn>
+        </v-layout>
+      </v-form>
+    </v-card>
+  </v-container>
+</v-sheet>"
+`;
